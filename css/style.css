@@ -1,8 +1,9 @@
-body{
-    font-family: Arial, sans-serif;
-    background-color: #FEC8D8;
+body {
+    font-family: comic sans ms;
+    background-color: #b8e0f6;
 }
-header{
+
+header {
     text-align: center;
 }
 
@@ -14,21 +15,43 @@ header h1 {
     padding: 10px 100px;
 }
 
-header h4{
-    margin-top: 15px;
+header h3 {
+    margin-top: -5px;
     color: #7d5aa0;
 }
 
-header p {
+header h4 {
     margin-top: -10px;
     color: #7d5aa0;
     font-size: x-small;
     margin-bottom: 10px;
 }
 
+#gambarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+#gambarPersegi {
+    width: 200px;
+    height: auto;
+}
+
+#rumusPersegi {
+    font-family: arial black;
+    text-align: center;
+    font-weight: bold;
+    color: #fc5283;
+}
+
 .inputSection {
     text-align: center;
-    margin-top: 50px;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #7d5aa0;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
 }
@@ -39,23 +62,28 @@ header p {
 
 #resultText {
     text-align: left;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #37667E;
+    font-size: 0.5cm;
+    font-weight: bold;
 }
 
-#squareSide{
+#squareSide {
     margin-top: 10px;
     outline: none;
     border-radius: 8px;
-    border: solid #fdb89f;
+    border: solid #88a1ad;
     padding: 8px;
+    margin-bottom: -20px;
 }
 
-#squareSide:focus{
-    border: solid #7d5aa0;
+#squareSide:focus {
+    border: solid #37667E;
 }
 
-button{
-    background-color: #c889cf;
+button {
+    background-color: #957DAD;
     color: white;
     border: none;
     border-radius: 8px;
@@ -63,11 +91,11 @@ button{
     cursor: pointer;
 }
 
-button:hover{
-    background-color: #8b6caa;
+button:hover {
+    background-color: #8766a8;
 }
 
-button:active{
-    background-color: #7846aa;
+button:active {
+    background-color: #7c48b1;
     transform: translateY(2px);
 }

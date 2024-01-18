@@ -56,11 +56,15 @@ document.addEventListener('DOMContentLoaded', function () {
         if (isCalculatingArea) {
             countButton.textContent = "Hitung Luas";
             switchButton.textContent = "Switch to Keliling";
-            pageTitle.textContent = "Kalkulator Persegi - Luas";
+            pageTitle.textContent = "Kalkulator Matematik Persegi - Luas";
+            rumusPersegi.textContent = "Rumus: Luas = Sisi x Sisi";
+            lblSquareSide.textContent = "Hitung Luas Persegi";
         } else {
             countButton.textContent = "Hitung Keliling";
             switchButton.textContent = "Switch to Luas";
-            pageTitle.textContent = "Kalkulator Persegi - Keliling";
+            pageTitle.textContent = "Kalkulator Matematik Persegi - Keliling";
+            rumusPersegi.textContent = "Rumus: Keliling = 4 x Sisi";
+            lblSquareSide.textContent = "Hitung Keliling Persegi";
         }
 
         resultText.innerHTML = '';

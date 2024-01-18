@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Kalkulator Persegi</title>
 </head>
+
 <body>
     <header>
-        <h1 id="pageTitle">Kalkulator Persegi - Luas</h1>
-        <h4>Welcome to Kaper [Kalkulator Persegi]</h4>
-        <p>Web ini digunakan untuk menghitung Luas dan Keliling Persegi dalam rangka menyelesaikan mini project RevoU</p>
+        <h1 id="pageTitle">Kalkulator Matematik Persegi - Luas</h1>
+        <h3>Welcome to Kaper [Kalkulator Persegi]</h3>
+        <h4>Web ini digunakan untuk menghitung Luas dan Keliling Persegi dalam rangka menyelesaikan mini project RevoU
+        </h4>
     </header>
+    <div id="gambarContainer">
+        <img id="gambarPersegi" src="image/persegi.png" alt="Gambar Persegi">
+    </div>
+    <div id="teksContainer">
+        <p id="rumusPersegi">Rumus: Luas = Sisi x Sisi</p>
+    </div>
     <div class="inputSection">
         <label for="squareSide" id="lblSquareSide">Hitung Luas Persegi</label>
         <input type="number" id="squareSide" placeholder="Masukkan panjang sisi persegi">
@@ -25,4 +34,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
